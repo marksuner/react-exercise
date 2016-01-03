@@ -1,0 +1,27 @@
+{
+  "name": "react-seed",
+  "version": "1.0.0",
+  "description": "React JS seed for Mark Suner",
+  "main": "index.js",
+  "scripts": {
+    "start" : "watchify src/main.jsx -v -t [babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/marksuner/react-seed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/marksuner/react-seed/issues"
+  },
+  "homepage": "https://gitlab.com/marksuner/react-seed#README",
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "watchify": "^3.6.1"
+  }
+}
