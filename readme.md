@@ -1,1 +1,1 @@
-React JS seed for Mark Suner
+React JS Exercise
